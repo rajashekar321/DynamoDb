@@ -46,7 +46,7 @@ public class MovieRatings1Application {
 
 		AmazonDynamoDB db = AmazonDynamoDBClientBuilder.standard()
 				.withCredentials(new AWSStaticCredentialsProvider(
-						new BasicAWSCredentials("AKIAQ64ZE3AYY5SST3MZ", "8ZtJdNQs0Zb8ni3ManEyw9oYWS86Ug/vGb32A3uj")))
+						new BasicAWSCredentials("YourAccessKey", "YourSecretAccesskey")))
 				.withRegion(Regions.US_EAST_1).build();
 		// AwsBasicCredentials awsbasicCredentials=AwsBasicCredentials.create();
 		// db.getItem(null)
